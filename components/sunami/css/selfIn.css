@@ -1,3 +1,22 @@
 body{
     background-color: rgb(217, 188, 188);
 }
+h1{
+    color:chocolate;
+    text-align: center;
+}
+a:link{
+    color: chartreuse;
+    text-decoration: none;
+}
+a:visited{
+    color: aquamarine;
+    text-decoration: none;
+}
+a:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+em.sample1{
+    font-size: 24px;
+}
