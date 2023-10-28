@@ -1,5 +1,7 @@
 body  {
     background-color: black;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 div{
@@ -9,12 +11,9 @@ div{
 
 h1{
     text-align: center;
-    color: orange;
 }
 
-time{
-    color: orange;
-}
+
 
 
 .center-text {
@@ -26,15 +25,8 @@ time{
     width: 250px; /* 横幅を1000ピクセルに設定 */
     margin: 0 auto; /
 }
-p {
-    color: orange;
-}
 
 li{
     width: 500;
-    color: orange;
 }
 
-small{
-    color: orange;
-}

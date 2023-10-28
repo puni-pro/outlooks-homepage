@@ -1,3 +1,17 @@
 body{
-    background-color: aquamarine;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.center-list{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.text{
+    background: linear-gradient(-45deg ,#2af598, #009efd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
