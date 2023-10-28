@@ -11,9 +11,12 @@ div{
 
 h1{
     text-align: center;
+    font-size: 30px;
 }
 
-
+p{
+    font-size: 18px;
+}
 
 
 .center-text {
@@ -29,4 +32,18 @@ h1{
 li{
     width: 500;
 }
+
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: pink;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 

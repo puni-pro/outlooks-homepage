@@ -8,6 +8,25 @@ body{
     margin: 0 auto;
 }
 
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 25px;
+}
+p{
+    font-size: 18px;
+}
+ol{
+    font-size: 18px;
+}
+
+q{
+    
+}
+
 #main {
     width: 100%;
 }
@@ -27,3 +46,17 @@ div{
     background-clip: text;
     color: transparent;
 }
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    color: pink;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
