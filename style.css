@@ -3,6 +3,18 @@ body{
     background-color: #fff;
     font-family: 'Times New Roman', Times, serif;
 }
+#container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#main {
+    width: 100%;
+}
+
+div{
+    text-align: center;
+}
 
 .center-list{
     width: 250px;
