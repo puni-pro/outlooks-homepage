@@ -20,12 +20,16 @@ p{
 
 
 .center-text {
-    width: 500px; /* 横幅を1000ピクセルに設定 */
+    width: 500px; 
     margin: 0 auto; /* テキストを中央に配置 */
 }
 
+#cont{
+    width: 700px;
+}
+
 .center-list{
-    width: 250px; /* 横幅を1000ピクセルに設定 */
+    width: 250px; 
     margin: 0 auto; /
 }
 
@@ -34,10 +38,7 @@ li{
 }
 
 
-a:link{
-    text-decoration: none;
-}
-a:visited{
+a {
     color: pink;
     text-decoration: none;
 }
@@ -47,3 +48,47 @@ a:hover{
 }
 
 
+blockquote{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    position:relative;
+    border:1px solid orange;
+    border-radius:10px;
+    padding:20px;
+}
+blockquote:before{
+    position:absolute;
+    font-family:'FontAwesome';
+    content:'\f10d';
+    font-size: 20px;
+    color:orange;
+    top:10px;
+    left:10px;
+}
+blockquote:after{
+    position:absolute;
+    font-family:'FontAwesome';
+    content:'\f10e';
+    font-size: 20px;
+    color:orange;
+    right:10px;
+    bottom:10px;
+}
+blockquote cite {
+    display: block;
+    font-size: 0.8rem;
+    text-align: right;
+    color: orange;
+    padding-right:20px;
+}
+
+
+cite a{
+    color: pink;
+    text-decoration: none;
+}
+cite a:hover{
+    text-decoration: underline;
+    color: white;
+}
