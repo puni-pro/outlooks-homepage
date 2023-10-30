@@ -26,6 +26,8 @@ p{
 
 #cont{
     width: 700px;
+    text-align: center;
+    margin: auto;
 }
 
 .center-list{
