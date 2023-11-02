@@ -1,15 +1,17 @@
 body{
     text-align: center;
-    background-color: #410c42ec;
+    background-color: #110311ec;   
+    color:#efcef1ec;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1{
-    color:#a13daaec;
+    color:#efcef1ec;
     text-align: center;
 }
-text-center{
-    text-align: center;
+.center-text {
+    width: 500px; 
+    margin: 0 auto; /* テキストを中央に配置 */
 }
 blockquote{
     border: solid 2px;
