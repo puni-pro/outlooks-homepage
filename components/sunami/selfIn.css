@@ -1,9 +1,12 @@
 body{
-    background-color: rgb(235, 0, 0);
+    background-color: #410c42ec;
     font-famliy:'Times New Roman', Times, serif;
 }
+div{
+    text-align: center;
+}
 h1{
-    color:chocolate;
+    color:#a13daaec;
     text-align: center;
 }
 a:link{
