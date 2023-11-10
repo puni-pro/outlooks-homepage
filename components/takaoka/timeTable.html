@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Today's Timetable</title>
-        <link rel = "stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-        <h1>Timetable of Friday</h1>
-        <table>
-            <tbody>
-                <caption>Timetable</caption>
-                <thead>
-                    <tr>
-                        <th>time</th>
-                        <td>lecture</td>
-                    </tr>
-                </thead>
-                <tr>
-                    <th>1, 2</th>
-                    <td>freedom</td>
-                </tr>
-                <tr>
-                    <th>3, 4</th>
-                    <td>e business</td>
-                </tr>
-                <tr>
-                    <th>5, 6</th>
-                    <td>freedom</td>
-                </tr>
-                <tr>
-                    <th>7, 8</th>
-                    <td>freedom</td>
-                </tr>
-                <tr>
-                    <th>after school</th>
-                    <td>part-time job</td>
-                </tr>
 
-            </tbody>
-        </table>
+<head>
+    <meta charset="utf-8">
+    <title>Today's Timetable</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
-    </body>
+<body>
+    <h1>Timetable of Friday</h1>
+    <table border="1" style="border-collapse: collapse;" width = "75%" height = "500">
+        <colgroup>
+            <col style = "background-color: #0f0;" />
+            <col span="2" style="background-color: #ff0;">
+        </colgroup>
+        <caption>Timetable</caption>
+        <thead>
+            <tr>
+                <th>time</th>
+                <th>lecture</th>
+                <th>lecture</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1, 2</th>
+                <td>freedom</td>
+                <td>freedom</td>
+            </tr>
+            <tr>
+                <th>3, 4</th>
+                <td>e business</td>
+                <td>html and css</td>
+            </tr>
+            <tr>
+                <th>5, 6</th>
+                <td>freedom</td>
+                <td>relax</td>
+            </tr>
+            <tr>
+                <th>7, 8</th>
+                <td>freedom</td>
+                <td>playing video game</td>
+            </tr>
+            <tr>
+                <th>after school</th>
+                <td>part-time job</td>
+                <td>Product display</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Evening</th>
+                <td colspan="2"> Go home, pc game</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
 </html>
