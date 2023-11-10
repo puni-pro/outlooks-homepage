@@ -110,3 +110,13 @@ th{
     border-collapse: separate;
     padding: 5px;
 }
+
+
+col.contentCol1{
+    background-color: aqua;
+
+}
+
+col.contentCol2{
+    background-color: burlywood;
+}
