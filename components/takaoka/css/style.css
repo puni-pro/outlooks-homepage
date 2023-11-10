@@ -95,3 +95,18 @@ cite a:hover{
     text-decoration: underline;
     color: white;
 }
+
+
+
+table, tr, td{
+    border: 1px solid;
+    border-collapse: separate;
+    padding: 5px;
+
+}
+
+th{
+    border : 2px solid;
+    border-collapse: separate;
+    padding: 5px;
+}
