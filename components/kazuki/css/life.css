@@ -76,3 +76,26 @@ em.sample1{
 em.sample2{
     font-weight: bold;
 }
+table{
+    text-align: center;
+    border:1px solid;
+    border-collapse: separate;
+    padding: 5px;
+}
+tr,td{
+    border:1px solid;
+    border-collapse: separate;
+    padding: 5px;
+}
+th{
+    border: 2px solid;
+    border-collapse: separate;
+    padding: 5px;
+    background-color: #CCFFFF;
+}
+col.contentCol1{
+    background-color: aqua;
+}
+col.contentCol2{
+    background-color: aquamarine;
+}
